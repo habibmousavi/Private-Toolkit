@@ -1,0 +1,97 @@
+body {
+	background-color:#2d3941;
+	}
+.margins {
+	margin-right:0px;		
+}
+.remove-padding {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.container-do {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.pic-100 {
+		border-bottom:#3a4954;	
+}
+.asoanline-img {
+	border-top: #3a4954 ;
+	border-bottom:#3a4954;		
+}
+.onvan {
+	background-color:#fad46b;	
+}
+.level {
+	background-color:#0092A6;
+	font-family: 'yekan', tahoma;
+	text-align:center;
+	font-size:1.5em;
+	color:#DCDCDC;
+	line-height:2.5em;
+	border-bottom:#3a4954 solid 1px;
+	font-weight:bolder;
+}
+.sessions{
+	background-color:#2d3941;
+	line-height:2.0em;
+	color:#fff;
+	font-family:calibri, 'ralewaybold', tahoma;
+	border-bottom:#3a4954;
+	font-weight:bold;
+	font-size:1.3em;	
+}
+.sessions:hover, .sessions:focus {
+	background-color:#242E35;
+	color:#FBFACC;	
+}
+
+.sessions-padding {
+	padding-left:1.1em;
+}
+.sessions-sign {
+	float:right;
+	right: 1.1em;
+	top: 0.35em;
+	color:#637582;	
+	}
+
+.riddles {
+	background-image:url(../images/top_blue_640.jpg);
+	background-position: center center;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	height:10em;
+	display:block;
+	max-width:100%;
+}
+
+.stories-menu{
+		background-color:#0092A6;
+	color:#DCDCDC;
+	font-family:calibri, 'ralewaybold', tahoma;
+	border-bottom:#286FFF;
+	font-weight:bold;
+	font-size:1.3em;	
+	line-height:2em;
+}
+.stories-menu:hover, .stories-menu:focus {
+	background-color:#00899B;
+	color:#E3E3E3;	
+}
+
+.farsi{
+	background-color:#2d3941;
+	line-height:2.0em;
+	color:#fff;
+	font-family: 'yekan', tahoma;
+	border-bottom:#3a4954;
+	font-weight:bold;
+	font-size:1.3em;
+	text-align:center;	
+}

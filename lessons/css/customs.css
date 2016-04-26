@@ -1,0 +1,54 @@
+body {
+	background-color:#2d3941;
+	
+}
+.remove-padding {
+	padding-left:0px;
+	padding-right:0px;
+}
+.pic-100 {
+		border-bottom:#3a4954;	
+}
+.online-img {
+	border-top: #3a4954 ;
+	border-bottom:#3a4954;		
+}
+.onvan {
+	background-color:#fad46b;	
+}
+.level {
+	background-color:#0092A6;
+	font-family: 'yekan', tahoma;
+	text-align:center;
+	font-size:1.5em;
+	color:#DCDCDC;
+	line-height:2.5em;
+	border-bottom:#3a4954 solid 1px;
+	font-weight:bolder;
+}
+.sessions{
+	background-color:#2d3941;
+	line-height:2.0em;
+	color:#fff;
+	font-family:calibri, 'ralewaybold', tahoma;
+	border-bottom:#3a4954;
+	font-weight:bold;
+	font-size:1.3em;	
+}
+.sessions:a {
+	text-decoration:none;
+}
+.sessions:hover, .sessions:focus {
+	background-color:#242E35;
+	color:#FBFACC;	
+}
+
+.sessions-padding {
+	padding-left:1.1em;
+}
+.sessions-sign {
+	float:right;
+	right: 1.1em;
+	top: 0.35em;
+	color:#637582;	
+	}

@@ -1,0 +1,86 @@
+h2 {
+	font-family: 'ralewaylight', Tahoma, calibri;
+	font-size: 2em;
+	margin: 0;
+	text-align: center;
+	color: #31849B;
+	text-transform:uppercase;
+}
+
+h3 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 0.5em 0 0.3em 0;
+	padding: 0;
+}
+
+.safhe {
+	background-color: #DBDEDE;
+	padding: 2em;
+}
+body {
+	background-color: #DBDEDE;
+}
+.safhe p {
+	text-align: justify;
+	margin:0;
+	padding: 0;
+	line-height: 1.6em;
+	color: #34495E;
+	font-family: tahoma, 'ralewaylight', calibri;
+	font-size:1.2em;
+}
+.safhe p:first-of-type {
+	text-indent:0;
+}
+			
+#meaning {
+	position: absolute;
+	padding: 0.3em 0.3em;
+	-webkit-border-radius: 0.3em;
+	border-radius: 0.3em;
+	direction: rtl;
+	text-align: right;
+	line-height: 1em;
+	background-color: #95A5A6;
+	color: #404D5B;
+	font-family: "b_mitraregular", tahoma;
+	font-weight: bold;
+	font-size: 1.3em;
+	top:0;
+	left:0;
+	opacity: 0;
+	-webkit-transition: opacity 300ms ease-in-out;
+	transition: opacity 300ms ease-in-out;
+	outline:none;
+	z-index: 1000;
+	white-space: nowrap;
+}
+
+#content span.selected {
+	background-color: #efefef;
+}
+
+.letters-capital {
+	text-transform:uppercase;
+	color:#2C3E4F;
+	font-weight:bold;
+	font-family:tahoma, calibri;
+	font-size:14px;
+}
+
+.letters-onvan {
+	text-align:center;
+	line-height: 2.5em;
+	background-color:#31849B;
+	color:#FFFFFF;
+	padding-left:1.2em;
+	font-weight:bold;
+	font-size:medium;
+	text-transform:capitalize;
+	margin-top:1.2em;
+}	
+.pad {
+	padding-right:1.2em;
+	padding-left:1.2em;
+}
