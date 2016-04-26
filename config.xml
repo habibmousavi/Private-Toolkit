@@ -2,7 +2,7 @@
 <widget id="com.mousavi.beginner" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Mousavi</name>
     <description>
-        MIC: First Term.
+        Private Toolkit: Term 1.
     </description>
     <author email="mousavi.aitch@gmail.com" href="">
         S. H. Mousavi
@@ -12,7 +12,11 @@
     <preference name="Fullscreen" value="true" />
     <preference name="Orientation" value="landscape" />
     <preference name="android-minSdkVersion" value="14" />
+	<preference name="SplashScreenDelay" value="6000"/>
     <icon src="icon.png" />
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<preference name="SplashScreen" value="screen"/>
+	<gap:splash src="splash.png" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
@@ -32,6 +36,7 @@
         <splash density="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
         <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
+		
     </platform>
     <access origin="*" />
     <allow-intent href="http://*/*" />
